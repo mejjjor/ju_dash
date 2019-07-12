@@ -13,8 +13,6 @@ function App() {
         <Route path='/dashboard' component={Dashboard} />
         <Route path='/statistique' component={Statistique} />
         <Route path='/communication' component={Communication} />
-
-
       </Switch>
       <Route exact path='/' render={() => {
         return (
@@ -26,7 +24,7 @@ function App() {
        <Route path='/' render={() => {
         return (
           <div>
-          ou comme ca partout ..car pas exact
+          ou comme ca partout .. car pas exact
           </div>
         );
       }} />
